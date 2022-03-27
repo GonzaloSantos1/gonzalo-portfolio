@@ -1,0 +1,123 @@
+.projects {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    width: 95%;
+    justify-content: flex-start;
+    margin: 2% 3% 0% 3%;
+    gap: 5%;
+
+    .text-container {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  div {
+    background: transparent;
+
+    h2,
+    p {
+      background: transparent;
+    }
+
+    h2 {
+      color: rgb(51, 180, 167);
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  .project-buttons {
+    align-self: flex-end;
+    margin-top: 13%;
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      font-size: 0.8rem;
+      background: transparent;
+      text-decoration: none;
+      color: black;
+    }
+
+    .github {
+      border: 1px solid black;
+      padding: 0.6rem 1.8rem;
+      transition: 0.5s ease;
+
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+
+    .demo {
+      padding: 0.6rem 1.8rem;
+      color: white;
+      background: rgb(51, 180, 167);
+      transition: 0.5s ease;
+
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+  }
+
+  .project-buttons2 {
+    align-self: flex-start;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      font-size: 0.8rem;
+      background: transparent;
+      text-decoration: none;
+      color: black;
+    }
+
+    .github {
+      border: 1px solid black;
+      padding: 0.6rem 1.8rem;
+      transition: 0.5s ease;
+
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+
+    .demo {
+      padding: 0.6rem 1.8rem;
+      color: white;
+      background: rgb(51, 180, 167);
+      transition: 0.5s ease;
+
+      &:hover {
+        background: black;
+      }
+    }
+  }
+}
+
+.project-img {
+  width: 46%;
+}
+
+.project-img-todolist {
+  margin-top: 0.5rem;
+  width: 46%;
+  height: 16.3rem;
+}
