@@ -1,0 +1,45 @@
+.about {
+  background: transparent;
+
+  div {
+    background: transparent;
+    width: 95%;
+
+    i {
+      background: transparent;
+      font-size: 1.5rem;
+      color: rgb(51, 180, 167);
+      margin-left: 0.8rem;
+      margin-right: 0.4rem;
+    }
+
+    p {
+      background: transparent;
+      width: 100%;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+  }
+
+  .container {
+    display: flex;
+    gap: 0.5rem;
+    margin: 2rem 0 1rem 0.5rem;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    .image-container {
+      text-align: left;
+    }
+
+    img {
+      margin-top: 3rem;
+      width: 40rem;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import '../src/cv/cs';
+@import '../src/components/about/about';
+@import '../src/components/education/education';
+@import '../src/components/experience/experience';
+@import '../src/components/more/more';
+@import '../src/components/profile/profile';
+@import '../src/components/projects/projects';
+@import './app';
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: #1b2033;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+}

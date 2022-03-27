@@ -1,0 +1,55 @@
+.experience {
+  background: transparent;
+
+  .main-container {
+    background: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    div {
+      background: transparent;
+      width: 95%;
+
+      i {
+        background: transparent;
+        font-size: 1.5rem;
+        color: rgb(51, 180, 167);
+        margin-left: 0.8rem;
+        margin-right: 0.4rem;
+      }
+
+      p {
+        background: transparent;
+        width: 100%;
+        font-size: 0.95rem;
+        font-weight: 500;
+      }
+    }
+
+    .container {
+      display: flex;
+
+      gap: 0.5rem;
+      margin: 2rem 0 1rem 0.5rem;
+
+      .name {
+        font-weight: 700;
+        font-size: 1rem;
+        background: transparent;
+      }
+
+      p {
+        background: transparent;
+        font-size: 0.9rem;
+      }
+      .description {
+        margin-top: 0.5rem;
+        width: 90%;
+      }
+    }
+  }
+}
