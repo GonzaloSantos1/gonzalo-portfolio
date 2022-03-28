@@ -1,6 +1,5 @@
 import React from 'react';
 import './_projects.scss';
-import whackadigglet from '../../assets/whackadigglet.png';
 import portfolio from '../../assets/portfolio.png';
 import pokeapi from '../../assets/pokeapi.png';
 import todolist from '../../assets/todolist.png';

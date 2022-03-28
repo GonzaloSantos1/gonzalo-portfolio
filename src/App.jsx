@@ -10,10 +10,10 @@ import './_app.scss';
 const {profile, education, experience} = CV;
 
 function App() {
-  const [showAbout, setShowAbout] = useState(true);
+  const [showAbout, setShowAbout] = useState(false);
   const [showEducation, setShowEducation] = useState(false);
   const [showExperience, setShowExperience] = useState(false);
-  const [showProjects, setShowProjects] = useState(false);
+  const [showProjects, setShowProjects] = useState(true);
 
   let showContainer = () => {
     if (showAbout) {

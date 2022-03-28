@@ -1,25 +1,23 @@
 .App {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: space-around;
 
   .container-right {
-    width: 65%;
+    width: 62.5%;
     background-color: #ffffff;
     border-radius: 10px;
     height: 95vh;
-    margin: 1.6rem 1.6rem 0 0;
+    margin: 1.5% 0 0 0;
     box-shadow: -10px 10px 20px rgb(0, 0, 0, 0.5);
     overflow: hidden;
   }
 
   .container-left {
-    width: 35%;
+    width: 32.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 0.3rem;
 
     .buttons-container {
       display: flex;
@@ -27,7 +25,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2.5rem;
+      gap: 1.5rem 2.5rem;
       width: 100%;
       align-items: center;
 
@@ -89,6 +87,65 @@
           font-weight: 900;
           font-size: 1.8rem;
           box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+
+    .container-right {
+      width: 95%;
+      margin-bottom: 2.5%;
+      height: 45rem;
+    }
+
+    .container-left {
+      width: 100%;
+
+      .profile {
+        justify-content: center;
+        margin-bottom: 0%;
+        margin-top: 3%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+
+    .container-right {
+      width: 95%;
+      height: 45rem;
+    }
+
+    .container-left {
+      width: 100%;
+
+      .profile {
+        justify-content: center;
+        margin-bottom: 0%;
+        margin-top: 3%;
+      }
+
+      .buttons-container {
+        gap: 1.5rem;
+
+        .button {
+          .btn-about,
+          .btn-education,
+          .btn-experience,
+          .btn-skills {
+            height: 4.5rem;
+            width: 4.5rem;
+          }
         }
       }
     }
