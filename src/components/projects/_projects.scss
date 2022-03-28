@@ -126,7 +126,7 @@
 @media only screen and (max-width: 480px) {
   .projects {
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
     margin-top: -3rem;
 
     .container {
@@ -134,12 +134,21 @@
       align-items: center;
 
       .text-container {
-        width: 100%;
-
+        width: 90%;
         .project-buttons,
         .project-buttons2 {
           align-self: center;
           margin: 1rem 0 0 0;
+        }
+
+        p {
+          margin-bottom: 1rem;
+          align-self: center;
+        }
+
+        h2 {
+          color: rgb(27, 27, 27);
+          align-self: center;
         }
       }
     }
