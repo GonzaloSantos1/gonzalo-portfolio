@@ -35,10 +35,23 @@
         gap: 0.6rem;
         align-items: center;
 
+        &:hover {
+          p {
+            transition: 0.4s ease;
+            color: rgb(51, 180, 167);
+          }
+        }
+
         p {
           font-size: 0.9rem;
           color: rgb(133, 132, 132);
           font-weight: 500;
+        }
+
+        .active {
+          text-decoration: rgb(51, 180, 167) underline;
+          text-underline-offset: 4px;
+          color: rgb(51, 180, 167);
         }
 
         .btn-about {

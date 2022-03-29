@@ -10,23 +10,33 @@ import './_app.scss';
 const {profile, education, experience} = CV;
 
 function App() {
-  const [showAbout, setShowAbout] = useState(false);
-  const [showEducation, setShowEducation] = useState(false);
-  const [showExperience, setShowExperience] = useState(false);
-  const [showProjects, setShowProjects] = useState(true);
+  //Components useStates
+  const [showComponent, setShowComponent] = useState(4);
 
-  let showContainer = () => {
-    if (showAbout) {
+  const toggleComponent = (index) => {
+    setShowComponent(index);
+  };
+
+  const printComponents = () => {
+    if (showComponent === 1) {
       return <About about={profile.about} />;
-    } else if (showEducation) {
+    } else if (showComponent === 2) {
       return <Education education={education} />;
-    } else if (showExperience) {
+    } else if (showComponent === 3) {
       return <Experience experience={experience} />;
-    } else if (showProjects) {
+    } else if (showComponent === 4) {
       return <Projects />;
     }
   };
 
+  // active-button for focus effect useStates
+  const [isActive, setActive] = useState(4);
+
+  const toggleClass = (index) => {
+    setActive(index);
+  };
+
+  //DOM
   return (
     <div className='App'>
       <div className='container-left'>
@@ -36,61 +46,53 @@ function App() {
             <button
               className='btn-about'
               onClick={() => {
-                setShowAbout(true);
-                setShowEducation(false);
-                setShowExperience(false);
-                setShowProjects(false);
+                toggleComponent(1);
+                toggleClass(1);
               }}
             >
               AB
             </button>
-            <p>About Me</p>
+            <p className={isActive === 1 ? 'active' : ''}>About Me</p>
           </div>
           <div className='button'>
             <button
               className='btn-education'
               onClick={() => {
-                setShowAbout(false);
-                setShowEducation(true);
-                setShowExperience(false);
-                setShowProjects(false);
+                toggleComponent(2);
+                toggleClass(2);
               }}
             >
               ED
             </button>
-            <p>Education</p>
+            <p className={isActive === 2 ? 'active' : ''}>Education</p>
           </div>
           <div className='button'>
             <button
               className='btn-experience'
               onClick={() => {
-                setShowAbout(false);
-                setShowEducation(false);
-                setShowExperience(true);
-                setShowProjects(false);
+                toggleComponent(3);
+                toggleClass(3);
               }}
             >
               EX
             </button>
-            <p>Experience</p>
+            <p className={isActive === 3 ? 'active' : ''}>Experience</p>
           </div>
           <div className='button'>
             <button
               className='btn-skills'
               onClick={() => {
-                setShowAbout(false);
-                setShowEducation(false);
-                setShowExperience(false);
-                setShowProjects(true);
+                toggleComponent(4);
+                toggleClass(4);
               }}
             >
               PR
             </button>
-            <p>Projects</p>
+            <p className={isActive === 4 ? 'active' : ''}>Projects</p>
           </div>
         </div>
       </div>
-      <div className='container-right'>{showContainer()}</div>
+      <div className='container-right'>{printComponents()}</div>
     </div>
   );
 }

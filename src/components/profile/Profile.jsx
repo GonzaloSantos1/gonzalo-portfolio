@@ -29,7 +29,7 @@ const Profile = ({profile}) => {
           </a>
         </p>
         <p>
-          <i class='bx bxl-linkedin-square'></i>
+          <i className='bx bxl-linkedin-square'></i>
           <a
             target='_blank'
             rel='noreferrer'
