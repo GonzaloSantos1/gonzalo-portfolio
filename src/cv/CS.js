@@ -10,7 +10,7 @@ export const CV = {
     gitHub: 'https://github.com/GonzaloSantos1',
     about: [
       {
-        info: `Hey there!👋 I'm Gonzalo, a 31 years old developer based in Spain. I'm a passionate of videogames, a nature lover and father of two cats. 🐈🐈‍⬛`,
+        info: `Hey there!👋 I'm Gonzalo, a 31 years old developer based in Spain. I'm a passionate of videogames, cats and a nature lover.`,
       },
       {
         info: `I am curious by nature and I love to learn and investigate about whatever nonsense I've seen on TV... I can say I'm a lifelong learner. I learn something new everyday and I strive to be the best at what I do.`,
