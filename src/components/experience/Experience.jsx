@@ -1,6 +1,6 @@
 import React from 'react';
 import './_experience.scss';
-import experiencepic from '../../assets/experience.png';
+import experiencepic from '../../assets/experience.webp';
 
 const Experience = ({experience}) => {
   return (

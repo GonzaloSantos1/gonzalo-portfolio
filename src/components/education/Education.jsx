@@ -1,6 +1,6 @@
 import React from 'react';
 import './_education.scss';
-import educationpic from '../../assets/educationpic.png';
+import educationpic from '../../assets/educationpic.webp';
 
 const Education = ({education}) => {
   return (

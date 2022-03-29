@@ -1,6 +1,6 @@
 import React from 'react';
 import './_about.scss';
-import aboutmepic from '../../assets/aboutmepic.png';
+import aboutmepic from '../../assets/aboutmepic.webp';
 
 const About = ({about}) => {
   return (
