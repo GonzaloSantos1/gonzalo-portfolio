@@ -10,6 +10,14 @@
     justify-content: space-between;
     margin-top: 2rem;
 
+    .experience-pic {
+      background: transparent;
+      width: 60%;
+      margin-top: -15%;
+      margin-left: 35%;
+      z-index: 1;
+    }
+
     div {
       background: transparent;
       width: 95%;
@@ -32,7 +40,7 @@
 
     .container {
       display: flex;
-
+      z-index: 2;
       gap: 0.5rem;
       margin: 2rem 0 1rem 0.5rem;
 
@@ -58,6 +66,12 @@
   .experience {
     .main-container {
       margin-top: 0.5rem;
+
+      .experience-pic {
+        width: 100%;
+        margin-top: -5%;
+        margin-left: 10%;
+      }
     }
   }
 }

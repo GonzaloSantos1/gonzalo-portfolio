@@ -12,16 +12,17 @@
     position: relative;
 
     .education-pic {
-      position: absolute;
-      top: 95%;
-      left: 35%;
+      background: transparent;
       width: 50%;
+      margin: -20.5% -50% 0 0;
+      z-index: 1;
     }
 
     .container {
       display: flex;
       gap: 0.5rem;
       margin: 2rem 0 1rem 0.5rem;
+      z-index: 2;
 
       .name {
         font-weight: 700;
@@ -58,6 +59,22 @@
   .education {
     .main-container {
       margin-top: 0.5rem;
+
+      .education-pic {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .education {
+    .main-container {
+      margin-top: 0.5rem;
+
+      .education-pic {
+        margin-top: -9%;
+      }
     }
   }
 }

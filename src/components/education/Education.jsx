@@ -1,5 +1,6 @@
 import React from 'react';
 import './_education.scss';
+import educationpic from '../../assets/educationpic.png';
 
 const Education = ({education}) => {
   return (
@@ -19,11 +20,7 @@ const Education = ({education}) => {
           );
         })}
 
-        <img
-          className='education-pic'
-          src='https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2417.jpghttps://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg'
-          alt=''
-        />
+        <img className='education-pic' src={educationpic} alt='' />
       </div>
     </div>
   );

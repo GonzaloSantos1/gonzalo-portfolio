@@ -1,5 +1,6 @@
 import React from 'react';
 import './_experience.scss';
+import experiencepic from '../../assets/experience.png';
 
 const Experience = ({experience}) => {
   return (
@@ -18,10 +19,7 @@ const Experience = ({experience}) => {
             </div>
           );
         })}
-        <img
-          src='https://img.freepik.com/free-vector/pair-programming-concept-illustration_114360-1812.jpg'
-          alt=''
-        />
+        <img className='experience-pic' src={experiencepic} alt='' />
       </div>
     </div>
   );

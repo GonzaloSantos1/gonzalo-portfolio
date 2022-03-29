@@ -25,6 +25,7 @@
     display: flex;
     gap: 0.5rem;
     margin: 2rem 0 1rem 0.5rem;
+    z-index: 2;
   }
 
   .main-container {
@@ -32,22 +33,44 @@
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
-
-    .image-container {
-      text-align: left;
-    }
+    height: 100%;
+    width: 90%;
 
     img {
-      margin-top: 3rem;
-      width: 40rem;
+      background: transparent;
+      width: 60%;
+      margin-left: -35%;
+      margin-top: 4%;
+      z-index: 1;
+      min-width: 400px;
     }
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .main-container {
-    .container {
-      margin-top: 0.5rem;
+  .about {
+    .main-container {
+      .container {
+        margin-top: 0.5rem;
+      }
+
+      .aboutme-pic {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: -10%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .about {
+    .main-container {
+      .aboutme-pic {
+        width: 60%;
+        margin-top: -5%;
+        margin-left: 10%;
+      }
     }
   }
 }

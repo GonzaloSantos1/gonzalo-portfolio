@@ -1,5 +1,6 @@
 import React from 'react';
 import './_about.scss';
+import aboutmepic from '../../assets/aboutmepic.png';
 
 const About = ({about}) => {
   return (
@@ -15,12 +16,8 @@ const About = ({about}) => {
             </div>
           );
         })}
-        <div className='image-container'>
-          <img
-            src='https://img.freepik.com/free-vector/developer-activity-concept-illustration_114360-1643.jpg'
-            alt=''
-          />
-        </div>
+
+        <img className='aboutme-pic' src={aboutmepic} alt='' />
       </div>
     </div>
   );
