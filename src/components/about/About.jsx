@@ -1,6 +1,5 @@
 import React from 'react';
 import './_about.scss';
-import aboutmepic from '../../assets/aboutmepic.webp';
 
 const About = ({about}) => {
   return (
@@ -17,7 +16,11 @@ const About = ({about}) => {
           );
         })}
 
-        <img className='aboutme-pic' src={aboutmepic} alt='' />
+        <img
+          className='aboutme-pic'
+          src='https://res.cloudinary.com/dzdcezx28/image/upload/v1648562868/aboutmepic_qnt8pi.png'
+          alt=''
+        />
       </div>
     </div>
   );

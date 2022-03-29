@@ -1,6 +1,5 @@
 import React from 'react';
 import './_experience.scss';
-import experiencepic from '../../assets/experience.webp';
 
 const Experience = ({experience}) => {
   return (
@@ -19,7 +18,11 @@ const Experience = ({experience}) => {
             </div>
           );
         })}
-        <img className='experience-pic' src={experiencepic} alt='' />
+        <img
+          className='experience-pic'
+          src='https://res.cloudinary.com/dzdcezx28/image/upload/v1648562868/experience_axm6au.png'
+          alt=''
+        />
       </div>
     </div>
   );

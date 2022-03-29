@@ -1,6 +1,5 @@
 import React from 'react';
 import './_education.scss';
-import educationpic from '../../assets/educationpic.webp';
 
 const Education = ({education}) => {
   return (
@@ -20,7 +19,11 @@ const Education = ({education}) => {
           );
         })}
 
-        <img className='education-pic' src={educationpic} alt='' />
+        <img
+          className='education-pic'
+          src='https://res.cloudinary.com/dzdcezx28/image/upload/v1648562868/educationpic_a2q04z.png'
+          alt=''
+        />
       </div>
     </div>
   );
