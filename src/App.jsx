@@ -44,6 +44,7 @@ function App() {
         <div className='buttons-container'>
           <div className='button'>
             <button
+              translate='no'
               className='btn-about'
               onClick={() => {
                 toggleComponent(1);
@@ -56,6 +57,7 @@ function App() {
           </div>
           <div className='button'>
             <button
+              translate='no'
               className='btn-education'
               onClick={() => {
                 toggleComponent(2);
@@ -68,6 +70,7 @@ function App() {
           </div>
           <div className='button'>
             <button
+              translate='no'
               className='btn-experience'
               onClick={() => {
                 toggleComponent(3);
@@ -80,6 +83,7 @@ function App() {
           </div>
           <div className='button'>
             <button
+              translate='no'
               className='btn-skills'
               onClick={() => {
                 toggleComponent(4);

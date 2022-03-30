@@ -1,8 +1,5 @@
 .education {
-  background: transparent;
-
   .main-container {
-    background: transparent;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,7 +9,6 @@
     position: relative;
 
     .education-pic {
-      background: transparent;
       width: 50%;
       margin: -20.5% -50% 0 0;
       z-index: 1;
@@ -27,16 +23,13 @@
       .name {
         font-weight: 700;
         font-size: 1rem;
-        background: transparent;
       }
     }
 
     div {
-      background: transparent;
       width: 95%;
 
       i {
-        background: transparent;
         font-size: 1.5rem;
         color: rgb(51, 180, 167);
         margin-left: 0.8rem;
@@ -44,7 +37,6 @@
       }
 
       p {
-        background: transparent;
         font-size: 0.9rem;
       }
       .description {
