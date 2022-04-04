@@ -39,7 +39,7 @@ const Profile = ({profile}) => {
         <p>
           <i className='bx bxs-download' />
           <a href={Gonzalo_Santos_Resume} download>
-            Resume download
+            Download Resume
           </a>
         </p>
       </div>
