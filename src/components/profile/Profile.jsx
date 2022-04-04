@@ -1,5 +1,6 @@
 import './_profile.scss';
 import React from 'react';
+import Gonzalo_Santos_Resume from '../../assets/Gonzalo_Santos_Resume.pdf';
 
 const Profile = ({profile}) => {
   return (
@@ -10,16 +11,13 @@ const Profile = ({profile}) => {
           {profile.name} {profile.surname}
         </h2>
         <p>
-          <i className='bx bxs-city'></i>
+          <i className='bx bxs-home'></i>
           {profile.city}{' '}
         </p>
-        <p>
-          <i className='bx bx-calendar-heart'></i>
-          {profile.birthDate}
-        </p>
+
         <p>
           <i className='bx bxs-envelope'></i>
-          <a href={'mailto:' + profile.email}>gsantosorellana.dev@gmail.com</a>
+          gsantosorellana.dev@gmail.com
         </p>
 
         <p>
@@ -36,6 +34,12 @@ const Profile = ({profile}) => {
             href='https://www.linkedin.com/in/gonzalo-santos-orellana-820735198/'
           >
             Linkedin
+          </a>
+        </p>
+        <p>
+          <i className='bx bxs-download' />
+          <a href={Gonzalo_Santos_Resume} download>
+            Resume download
           </a>
         </p>
       </div>

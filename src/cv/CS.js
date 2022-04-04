@@ -2,7 +2,7 @@ export const CV = {
   profile: {
     name: 'Gonzalo',
     surname: 'Santos Orellana',
-    city: 'Valladolid, Castilla y León',
+    city: 'Valladolid, Spain',
     email: 'gsantosorellana.dev@gmail.com',
     birthDate: '28/12/1990',
     phone: '(+12) 767333841',
