@@ -6,7 +6,7 @@ export const CV = {
     email: 'gsantosorellana.dev@gmail.com',
     birthDate: '28/12/1990',
     phone: '(+12) 767333841',
-    image: 'https://i.postimg.cc/Gm816rKq/profile-1.png',
+    image: 'https://i.postimg.cc/SKppRw6B/profile.png',
     gitHub: 'https://github.com/GonzaloSantos1',
     about: [
       {
