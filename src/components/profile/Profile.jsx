@@ -31,7 +31,7 @@ const Profile = ({profile}) => {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://www.linkedin.com/in/gonzalo-santos-orellana-820735198/'
+            href='https://www.linkedin.com/in/gonzalosantosorellana/'
           >
             Linkedin
           </a>
